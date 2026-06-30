@@ -75,6 +75,8 @@ LazyVim's **Mason** auto-installs the editor tools (`rust-analyzer`, `clangd`, `
 | Rust        | [rustup](https://rustup.rs) (`cargo`, `rustc`) |
 | C / C++     | A compiler + debugger — `gcc`/`g++` or `clang`/LLVM (Windows: MSVC Build Tools or MinGW-w64) |
 
+👉 Step-by-step commands for Windows & macOS: see **[INSTALL.md](./INSTALL.md)**.
+
 > **Note:** `templates/cpp.cpp` uses `#include <bits/stdc++.h>` and the `<leader>r`
 > mapping calls `g++`. These assume a **GCC/MinGW** toolchain. With MSVC, swap them for
 > your own headers / build command.
